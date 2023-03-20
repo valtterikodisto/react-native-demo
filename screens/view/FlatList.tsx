@@ -2,7 +2,7 @@ import React from "react";
 import { View, StyleSheet, SafeAreaView, FlatList } from "react-native";
 import { colors } from "../../constants/colors";
 
-const numbers = Array.from(Array(1000).keys()).map((number) => ({
+const numbers = Array.from(Array(5000).keys()).map((number) => ({
   id: number,
   value: number,
 }));

@@ -2,7 +2,7 @@ import React from "react";
 import { ScrollView, View, StyleSheet, SafeAreaView } from "react-native";
 import { colors } from "../../constants/colors";
 
-const numbers = Array.from(Array(1000).keys());
+const numbers = Array.from(Array(5000).keys());
 
 export const ScrollViewScreen: React.FC = () => {
   return (
